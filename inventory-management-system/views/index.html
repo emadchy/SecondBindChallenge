@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Inventory</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 50px;
+    }
+    form {
+      margin-bottom: 20px;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Book Inventory</h1>
+
+  <h2>Add a New Book</h2>
+  <form id="addBookForm">
+    Title: <input type="text" name="title" required><br>
+    Author: <input type="text" name="author" required><br>
+    Genre: <input type="text" name="genre" required><br>
+    Publication Date: <input type="date" name="publication_date" required><br>
+    ISBN: <input type="text" name="isbn" required><br>
+    <button type="submit">Add Book</button>
+  </form>
+
+  <h2>Filter Books</h2>
+  <form id="filterForm">
+    Title: <input type="text" name="title"><br>
+    Author: <input type="text" name="author"><br>
+    Genre: <input type="text" name="genre"><br>
+    Publication Date: <input type="date" name="publication_date"><br>
+    <button type="submit">Filter</button>
+  </form>
+
+  <table id="bookList">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Date</th>
+        <th>ISBN</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <h2>Export Books</h2>
+  <button id="exportBtn">Export as CSV</button>
+
+  <script>
+    // JS logic for handling form submissions, fetching and rendering data would go here
+  </script>
+</body>
+</html>
