@@ -42,5 +42,5 @@ The Book Inventory Management System is designed to help manage a collection of 
 ### Clone the Repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/emadchy/SecondBindChallenge.git
 cd <repository-folder>
